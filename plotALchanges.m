@@ -1,8 +1,8 @@
 function plotALchanges()
 
-xline(datenum('18AUG2021'), 'k--', 'AL4');
-xline(datenum('22SEP2021'), 'k--', 'AL3');
-xline(datenum('06OCT2021'), 'k--', 'AL3/S1');
-xline(datenum('10NOV2021'), 'k--', 'AL3/S2');
-xline(datenum('03DEC2021'), 'k--', 'CPF red');
-xline(datenum('31DEC2021'), 'k--', 'CPF orange');
+xline(datetime('18AUG2021', 'InputFormat', 'ddMMMyyyy'), 'k--', 'AL4');
+xline(datetime('22SEP2021', 'InputFormat', 'ddMMMyyyy'), 'k--', 'AL3');
+xline(datetime('06OCT2021', 'InputFormat', 'ddMMMyyyy'), 'k--', 'AL3/S1');
+xline(datetime('10NOV2021', 'InputFormat', 'ddMMMyyyy'), 'k--', 'AL3/S2');
+xline(datetime('03DEC2021', 'InputFormat', 'ddMMMyyyy'), 'k--', 'CPF red');
+xline(datetime('31DEC2021', 'InputFormat', 'ddMMMyyyy'), 'k--', 'CPF orange');
